@@ -1,4 +1,4 @@
-# SparkGcBigQuery
+# Spark-Google-CloudStorage-BigQuery
 Project Description:Breadcrumbsspark_google_cloud_BigQuery Data Pipeline Project Overview:  This project aims to establish a robust and scalable data pipeline that efficiently ingests, processes, and stores data to Google Cloud. develop a data pipeline using Apache-Spark as the processing tool and the  Google Cloud Storage (raw file storage) and Google BigQuery (serve the processed data to used for analytical queries) as the storage solution.
 
 
