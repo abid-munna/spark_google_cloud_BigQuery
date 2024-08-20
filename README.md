@@ -15,13 +15,11 @@ python3 get_data.py
 
 ```
  
-### 2. Prepare Docker-Compose File , DockerFile and gc_cedential
+### 2. Prepare Docker-Compose File , DockerFile and gcp_cedentials
 
-
-We use "volumes" to import our scripts to containers.
-      - ./data:/data
-      -./src:/src
-
+ - Create a bucket in google cloud storge
+ - Give permission to read and write storge(sorage admin, etc)
+ - create access key and download as json file save it as gcp_cedentials.json file in src/credentials
 See ```docker-compose.yml```
 
 ```
