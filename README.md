@@ -5,8 +5,7 @@ Project Description:Breadcrumbsspark_google_cloud_BigQuery Data Pipeline Project
 
 #### Run the given code to get data
 get all data as zip file using the url or use request library with necessory ssl certficates
-```https://download.inep.gov.br/microdados/microdados_censo_da_educacao_superior_{year}.zip"
-
+```https://download.inep.gov.br/microdados/microdados_censo_da_educacao_superior_{year}.zip
 ```
 run below script for unzip the file to data folder
 ```
