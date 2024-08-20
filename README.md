@@ -1,1 +1,1 @@
-# spark_google_cloud_BigQuery
+# spark_gc_bigquery
