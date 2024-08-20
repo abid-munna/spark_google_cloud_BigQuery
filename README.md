@@ -19,8 +19,8 @@ python3 get_data.py
 
  - Create a bucket in google cloud storge
  - Give permission to read and write storge(sorage admin, etc)
- - create access key and download as json file save it as gcp_cedentials.json file in src/credentials
-See ```docker-compose.yml```
+ - create access key and download as json file save it as gcp_cedentials.json file in ```src/credentials```
+ - Create  ```docker-compose.yml``` and ```DockerFile```
 
 ```
 version: '3'
@@ -50,8 +50,9 @@ services:
 
 ```
 
-Dockerfile add gc_credntial.json to ENV variable
-```FROM docker.io/bitnami/spark:3.3.1
+
+```
+FROM docker.io/bitnami/spark:3.3.1
 
 COPY *.jar $SPARK_HOME/jars
 
